@@ -25,9 +25,16 @@ prevBtn.addEventListener('click', function () {
 
 function carousel() {
 
-    // Setting the 'transfom' property
+    // Resetting the counter
+    if (counter === slides.length) {
+        counter = 0;
+    }
+
     slides.forEach(function (slide) {
+
+        // Setting the 'transfom' property
         slide.style.transform = `translateX(-${counter * 100}%)`;
+
     });
 
 }
