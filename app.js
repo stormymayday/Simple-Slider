@@ -10,3 +10,5 @@ slides.forEach(function (slide, index) {
     slide.style.left = `${index * 100}%`;
 
 });
+
+let counter = 0;
