@@ -264,7 +264,7 @@ Slider
 }
 
 .prev-btn,
-.nextBtn {
+.next-btn {
     background: transparent;
     border-color: transparent;
     font-size: 1.75rem;
@@ -277,7 +277,7 @@ Slider
 }
 
 .prev-btn:hover,
-.nextBtn:hover {
+.next-btn:hover {
     color: var(--clr-grey-3);
 }
 
