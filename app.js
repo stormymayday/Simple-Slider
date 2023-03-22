@@ -12,3 +12,7 @@ slides.forEach(function (slide, index) {
 });
 
 let counter = 0;
+
+nextBtn.addEventListener('click', function () {
+    counter++;
+});
