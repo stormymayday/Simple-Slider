@@ -20,3 +20,12 @@ nextBtn.addEventListener('click', function () {
 prevBtn.addEventListener('click', function () {
     counter--;
 });
+
+function carousel() {
+
+    // Setting the 'transfom' property
+    slides.forEach(function (slide) {
+        slide.style.transform = `translateX(-${counter * 100}%)`;
+    });
+
+}
