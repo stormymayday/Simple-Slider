@@ -263,7 +263,7 @@ Slider
     margin-top: 0.75rem;
 }
 
-.prevBtn,
+.prev-btn,
 .nextBtn {
     background: transparent;
     border-color: transparent;
@@ -276,7 +276,7 @@ Slider
     transition: var(--transition);
 }
 
-.prevBtn:hover,
+.prev-btn:hover,
 .nextBtn:hover {
     color: var(--clr-grey-3);
 }
