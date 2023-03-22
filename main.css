@@ -317,5 +317,5 @@ Slider
 
 /* negative value moves to left */
 .slide {
-    transform: translateX(-100%);
+    transform: translateX(0%);
 }

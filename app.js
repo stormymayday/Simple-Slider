@@ -1,1 +1,2 @@
-console.log(`hello`);
+// Selections
+const slides = document.querySelectorAll('.slide');
