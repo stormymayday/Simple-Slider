@@ -16,3 +16,7 @@ let counter = 0;
 nextBtn.addEventListener('click', function () {
     counter++;
 });
+
+prevBtn.addEventListener('click', function () {
+    counter--;
+});
