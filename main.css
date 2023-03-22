@@ -299,7 +299,8 @@ Slider
     }
 }
 
-.slide:nth-child(1) {
+/* Manual Functionality */
+/* .slide:nth-child(1) {
     left: 0;
 }
 
@@ -315,7 +316,7 @@ Slider
     left: 300%;
 }
 
-/* negative value moves to left */
 .slide {
     transform: translateX(0%);
-}
+} */
+/* negative value moves to left */
