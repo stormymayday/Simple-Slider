@@ -53,6 +53,11 @@ function carousel() {
         // Displaying 'prevBtn'
         prevBtn.style.display = 'block';
 
+    } else {
+
+        // Hiding 'prevBtn'
+        prevBtn.style.display = 'none';
+
     }
 
     slides.forEach(function (slide) {
@@ -64,5 +69,5 @@ function carousel() {
 
 }
 
-// Hiding the 'prev' button initally
+// Hiding 'prevBtn' initally
 prevBtn.style.display = 'none';
