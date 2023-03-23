@@ -41,3 +41,6 @@ function carousel() {
     });
 
 }
+
+// Hiding the 'prev' button initally
+prevBtn.style.display = 'none';
