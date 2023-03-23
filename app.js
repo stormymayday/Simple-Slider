@@ -33,6 +33,14 @@ function carousel() {
     //     counter = slides.length - 1;
     // }
 
+    // Alternative: Working with buttons
+    if (counter < slides.length - 1) {
+
+        // Showing the 'nextBtn' when counter is less than slides.length - 1
+        nextBtn.style.display = 'block';
+
+    }
+
     slides.forEach(function (slide) {
 
         // Setting the 'transfom' property
