@@ -34,6 +34,7 @@ function carousel() {
     // }
 
     // Alternative: Working with buttons
+    // Next Button
     if (counter < slides.length - 1) {
 
         // Showing the 'nextBtn' when counter is less than slides.length - 1
@@ -43,6 +44,14 @@ function carousel() {
 
         // Hiding the 'nextBtn'
         nextBtn.style.display = 'none';
+
+    }
+
+    // Prev Button
+    if (counter > 0) {
+
+        // Displaying 'prevBtn'
+        prevBtn.style.display = 'block';
 
     }
 
