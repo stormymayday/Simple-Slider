@@ -39,6 +39,11 @@ function carousel() {
         // Showing the 'nextBtn' when counter is less than slides.length - 1
         nextBtn.style.display = 'block';
 
+    } else {
+
+        // Hiding the 'nextBtn'
+        nextBtn.style.display = 'none';
+
     }
 
     slides.forEach(function (slide) {
