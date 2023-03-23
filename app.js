@@ -25,7 +25,7 @@ prevBtn.addEventListener('click', function () {
 
 function carousel() {
 
-    // Resetting the counter
+    // Initial Logic: Resetting the counter
     // if (counter === slides.length) {
     //     counter = 0;
     // }
