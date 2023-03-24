@@ -33,7 +33,8 @@ function carousel() {
     //     counter = slides.length - 1;
     // }
 
-    // Alternative: Working with buttons
+    // Alternative: Hiding and Showing buttons
+    // Requires: Hiding 'prevBtn' initally
     // Next Button
     if (counter < slides.length - 1) {
 
