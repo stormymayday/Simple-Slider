@@ -241,13 +241,6 @@ Slider
     transform: translate(-50%, -50%);
 }
 
-.slide:nth-child(1) h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .slide:nth-child(3) {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("./img-2.jpg") center/cover no-repeat;
