@@ -1,4 +1,5 @@
 import getElement from "./utils/getElement.js";
+import getElements from "./utils/getElements.js";
 
 // Selections
 const slides = document.querySelectorAll('.slide');
