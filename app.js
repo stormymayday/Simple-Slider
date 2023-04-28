@@ -2,7 +2,7 @@ import getElement from "./utils/getElement.js";
 
 // Selections
 const slides = document.querySelectorAll('.slide');
-const prevBtn = document.querySelector('.prev-btn');
+const prevBtn = getElement('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
 
 slides.forEach(function (slide, index) {
