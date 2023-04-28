@@ -1,6 +1,6 @@
 import getElement from "./utils/getElement.js";
 import getElements from "./utils/getElements.js";
-import { carousel } from "./carousel.js";
+import { carousel } from "./utils/carousel.js";
 
 // Selections
 const slides = getElements('.slide');
