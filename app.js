@@ -2,7 +2,7 @@ import getElement from "./utils/getElement.js";
 import getElements from "./utils/getElements.js";
 
 // Selections
-const slides = document.querySelectorAll('.slide');
+const slides = getElements('.slide');
 const prevBtn = getElement('.prev-btn');
 const nextBtn = getElement('.next-btn');
 

@@ -2,10 +2,10 @@ const getElements = (selection) => {
 
     const elements = document.querySelectorAll(selection);
 
-    if (elements) {
+    if (elements.length > 0) {
         return elements;
     } else {
-        throw new Error(`Elements with selection of '${selection}' do not exist`);
+        throw new Error(`No elements were selected using '${selection}' selection`);
     }
 
 };
